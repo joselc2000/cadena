@@ -6,6 +6,6 @@ public class Cadena {
         String nombres = almacenar.nextLine();
         System.out.println("Escribe tus apellidos:");
         String apellidos = almacenar.nextLine();
-        System.out.println("Tu nombre completo es: " + nombre + apellidos);
+        System.out.println("Tu nombre completo es: " + nombres + " " + apellidos);
     }
 }
